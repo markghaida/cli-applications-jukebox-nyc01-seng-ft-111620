@@ -21,7 +21,7 @@ def play(songs)
   #binding.pry
   songs.each_with_index do |song, index|
     #binding.pry
-    if user_input.to_i <= songs.length && user_input.to_i >= index + 1
+    if user_input.to_i <= songs.length && user_input.to_i >= 1
       #binding.pry
       puts "Playing #{song}"
     # elsif user_input == song
