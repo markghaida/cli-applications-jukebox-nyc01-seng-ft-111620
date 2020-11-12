@@ -35,4 +35,13 @@ end
 
 def run 
   puts "Please enter a command:"
+  user_input = gets.strip
+  if user_input == "exit"
+    exit_jukebox
+  elsif user_input == "list"
+    list(songs)
+  elsif user_input == "play"
+    play(songs)
+  elsif user_input == "help"
+    help
 end 
