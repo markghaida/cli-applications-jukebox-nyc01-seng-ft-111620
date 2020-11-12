@@ -23,8 +23,8 @@ def play(songs)
     elsif songs.include? (user_input)
     #binding.pry
        puts "Playing #{songs.find{|song| song == user_input}}"
-    # else
-      # puts "Invalid input, please try again"
+    else
+      puts "Invalid input, please try again"
     end 
   
 end 
