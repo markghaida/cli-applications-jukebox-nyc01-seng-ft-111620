@@ -20,7 +20,7 @@ def play(songs)
   user_input = gets.strip
     if user_input.to_i <= songs.length && user_input.to_i >= 1
       puts "Playing #{songs[user_input.to_i - 1]}"
-    # elsif user_input == song
+     elsif user_input == song
     #binding.pry
       # puts "Playing #{song}"
     # else
